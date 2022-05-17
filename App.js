@@ -24,6 +24,7 @@ export default function App() {
     console.log('Type: ' + type + '\nData: ' + data)
   }
 
+  // check your real phone android
   if (hasPermission === null) {
     return(
       <View style={ styles.container }>
