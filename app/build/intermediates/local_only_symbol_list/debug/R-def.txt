@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id barcodeView
+id btnScan
+id btnScanContinuous
+id btnScanMe
+id btnTorch
+id labelResult
+id labelResultContinuous
+id txtResult
+id txtResultContinuous
+id txtValue
+id txtValueLabel
+id zxing_barcode_surface
+id zxing_viewfinder_view
+layout activity_main
+layout activity_scan
+layout activity_scan_result
+layout barcode_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.PamoProject
+xml backup_rules
+xml data_extraction_rules
