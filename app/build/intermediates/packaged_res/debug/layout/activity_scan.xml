@@ -8,8 +8,10 @@
 
     <com.journeyapps.barcodescanner.DecoratedBarcodeView
         android:id="@+id/barcodeView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
-        android:layout_height="435dp"
+        android:layout_height="235dp"
         app:zxing_scanner_layout="@layout/barcode_layout" />
 
     <Button
@@ -29,19 +31,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnScan"
-            android:text="Scan" />
+            android:text="Touch to scan" />
         <TextView
             android:layout_marginRight="4dp"
-            android:id="@+id/labelResult"
+            android:id="@+id/labelResultScan"
             android:text="Result: "
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:text="..."
-            android:id="@+id/txtResult"
+            android:id="@+id/txtResultScan"
+            android:padding="4dp"
+            android:background="@color/zxing_result_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="667dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

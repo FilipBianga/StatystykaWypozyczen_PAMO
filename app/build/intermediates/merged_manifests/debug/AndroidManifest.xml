@@ -32,7 +32,6 @@
         android:required="false" />
 
     <application
-        android:name="com.example.pamoproject.StartApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -46,6 +45,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PamoProject" >
         <activity
+            android:name="com.example.pamoproject.ViewScanActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.pamoproject.ScanActivity"
             android:exported="false" />
         <activity
@@ -57,9 +59,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.pamoproject.ScanResult"
-            android:screenOrientation="portrait" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

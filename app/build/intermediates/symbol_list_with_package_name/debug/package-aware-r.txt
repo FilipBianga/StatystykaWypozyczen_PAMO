@@ -1216,6 +1216,8 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue_1
+color blue_2
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2484,6 +2486,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_bg_title
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2641,7 +2644,10 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnFlash
+id btnMenu
 id btnScan
+id btnScanActivity
+id btnViewScan
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2780,7 +2786,6 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
-id labelResult
 id labelResultScan
 id labeled
 id layout
@@ -3012,10 +3017,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtResult
 id txtResultScan
-id txtValue
-id txtValueLabel
 id unchecked
 id uniform
 id unlabeled
@@ -3145,7 +3147,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_scan
-layout activity_scan_result
+layout activity_view_scan
 layout barcode_layout
 layout custom_dialog
 layout design_bottom_navigation_item
