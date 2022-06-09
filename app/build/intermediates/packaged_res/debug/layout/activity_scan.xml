@@ -13,8 +13,8 @@
         app:zxing_scanner_layout="@layout/barcode_layout" />
 
     <Button
-        android:text="Lighter"
-        android:id="@+id/btnTorch"
+        android:text="Flash"
+        android:id="@+id/btnFlash"
         app:layout_constraintRight_toRightOf="@id/barcodeView"
         app:layout_constraintBottom_toBottomOf="@id/barcodeView"
         android:layout_width="wrap_content"

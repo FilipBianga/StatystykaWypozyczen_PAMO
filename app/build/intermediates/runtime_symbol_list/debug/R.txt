@@ -1228,9 +1228,8 @@ int color cardview_light_background 0x7f05002b
 int color cardview_shadow_end_color 0x7f05002c
 int color cardview_shadow_start_color 0x7f05002d
 int color checkbox_themeable_attribute_color 0x7f05002e
-int color colorAccent 0x7f05002f
-int color colorPrimary 0x7f050030
-int color colorPrimaryDark 0x7f050031
+int color darkGreen 0x7f050268
+int color darkPink 0x7f050269
 int color design_bottom_navigation_shadow_color 0x7f050032
 int color design_box_stroke_color 0x7f050033
 int color design_dark_default_color_background 0x7f050034
@@ -1279,6 +1278,7 @@ int color foreground_material_dark 0x7f05005e
 int color foreground_material_light 0x7f05005f
 int color highlighted_text_material_dark 0x7f050060
 int color highlighted_text_material_light 0x7f050061
+int color lightGreen 0x7f05026a
 int color m3_appbar_overlay_color 0x7f050062
 int color m3_assist_chip_icon_tint_color 0x7f050063
 int color m3_assist_chip_stroke_color 0x7f050064
@@ -2639,10 +2639,8 @@ int id bounce 0x7f080060
 int id bounceBoth 0x7f080061
 int id bounceEnd 0x7f080062
 int id bounceStart 0x7f080063
+int id btnFlash 0x7f080201
 int id btnScan 0x7f0801fe
-int id btnScanContinuous 0x7f080064
-int id btnScanMe 0x7f080065
-int id btnTorch 0x7f080066
 int id buttonPanel 0x7f080067
 int id cache_measures 0x7f080068
 int id callMeasure 0x7f080069
@@ -2782,7 +2780,7 @@ int id item_touch_helper_previous_elevation 0x7f0800ee
 int id jumpToEnd 0x7f0800ef
 int id jumpToStart 0x7f0800f0
 int id labelResult 0x7f0801ff
-int id labelResultContinuous 0x7f0800f1
+int id labelResultScan 0x7f080202
 int id labeled 0x7f0800f2
 int id layout 0x7f0800f3
 int id left 0x7f0800f4
@@ -3014,7 +3012,7 @@ int id transition_scene_layoutid_cache 0x7f0801d5
 int id transition_transform 0x7f0801d6
 int id triangle 0x7f0801d7
 int id txtResult 0x7f080200
-int id txtResultContinuous 0x7f0801d8
+int id txtResultScan 0x7f080203
 int id txtValue 0x7f0801d9
 int id txtValueLabel 0x7f0801da
 int id unchecked 0x7f0801db

@@ -1,9 +1,9 @@
 R_DEF: Internal format may change without notice
 local
 color black
-color colorAccent
-color colorPrimary
-color colorPrimaryDark
+color darkGreen
+color darkPink
+color lightGreen
 color purple_200
 color purple_500
 color purple_700
@@ -13,14 +13,12 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id barcodeView
+id btnFlash
 id btnScan
-id btnScanContinuous
-id btnScanMe
-id btnTorch
 id labelResult
-id labelResultContinuous
+id labelResultScan
 id txtResult
-id txtResultContinuous
+id txtResultScan
 id txtValue
 id txtValueLabel
 id zxing_barcode_surface

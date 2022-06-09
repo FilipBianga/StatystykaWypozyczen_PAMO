@@ -29,7 +29,7 @@ class ScanResult : AppCompatActivity() {
 
             if(result.contents != null) {
                 scannedResult = result.contents
-                txtValue.text = scannedResult
+                txtValue.text = scannedResult + "tak"
             } else {
                 txtValue.text = "scan failed"
             }
@@ -52,4 +52,6 @@ class ScanResult : AppCompatActivity() {
             txtValue.text =scannedResult
         }
     }
+
+
 }

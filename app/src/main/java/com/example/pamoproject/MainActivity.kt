@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.example.pamoproject
 
 import android.animation.ArgbEvaluator
@@ -6,7 +8,13 @@ import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.android.volley.Request
+import com.android.volley.RequestQueue
+import com.android.volley.Response
+import com.android.volley.toolbox.StringRequest
+import com.android.volley.toolbox.Volley
 import com.google.zxing.ResultPoint
 import com.google.zxing.client.android.BeepManager
 import com.journeyapps.barcodescanner.BarcodeCallback
@@ -14,10 +22,12 @@ import com.journeyapps.barcodescanner.BarcodeResult
 import com.journeyapps.barcodescanner.CaptureManager
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
+import kotlin.collections.HashMap
 
 class MainActivity : AppCompatActivity() {
     private lateinit var captureManager: CaptureManager
     private var flashState: Boolean = false
+    var scannedData: String = ""
 
     private var scanState: Boolean = false
     private lateinit var scanBG: Drawable
@@ -44,7 +54,26 @@ class MainActivity : AppCompatActivity() {
                     val current = Date()
                     val diff = current.time - lastScan.time
                     if(diff >= 1000) {
-                        txtResultScan.text = it.text
+                        scannedData = it.text
+                        txtResultScan.text = scannedData
+
+                        val url="https://script.google.com/macros/s/AKfycbz63MNDI3LU3yNst07zzKsoOHKhAjh9HvFXbcndgHwAoUm3KuYiKdJ4cHOY6anqm4VF/exec"
+                        val stringRequest = object : StringRequest(Request.Method.POST, url, Response.Listener {
+                            Toast.makeText(this@MainActivity, it.toString(), Toast.LENGTH_SHORT).show()
+                        },
+                            Response.ErrorListener {
+                                Toast.makeText(this@MainActivity, it.toString(), Toast.LENGTH_SHORT).show()
+                            }
+                        ){
+                            override fun getParams(): MutableMap<String, String>? {
+                                val params=HashMap<String,String>()
+                                params["sdata"] = scannedData
+                                return params
+                            }
+                        }
+                        val queue :RequestQueue = Volley.newRequestQueue(this@MainActivity)
+                        queue.add(stringRequest)
+
                         lastScan = current
                         beepManager.playBeepSoundAndVibrate()
 
@@ -108,4 +137,5 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         captureManager.onDestroy()
     }
+
 }

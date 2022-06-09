@@ -13,138 +13,141 @@
 11    <uses-permission android:name="android.permission.VIBRATE" />
 11-->D:\PamoProject\app\src\main\AndroidManifest.xml:6:5-66
 11-->D:\PamoProject\app\src\main\AndroidManifest.xml:6:22-63
-12    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-12-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:5-65
-12-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:22-62
-13    <uses-feature
-13-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:25:5-27:36
-14        android:name="android.hardware.camera"
-14-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:26:9-47
-15        android:required="false" />
-15-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:27:9-33
-16    <uses-feature
-16-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:28:5-30:36
-17        android:name="android.hardware.camera.front"
-17-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:29:9-53
-18        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-18-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:30:9-33
-19    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
-20    <uses-feature
-20-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:33:5-35:36
-21        android:name="android.hardware.camera.autofocus"
-21-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:34:9-57
-22        android:required="false" />
-22-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:35:9-33
-23    <uses-feature
-23-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
-24        android:name="android.hardware.camera.flash"
-24-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
-25        android:required="false" />
-25-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
-26    <uses-feature
-26-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
-27        android:name="android.hardware.screen.landscape"
-27-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
-28        android:required="false" />
-28-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
-29    <uses-feature
-29-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
-30        android:name="android.hardware.wifi"
-30-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
-31        android:required="false" />
-31-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
-32
-33    <application
-33-->D:\PamoProject\app\src\main\AndroidManifest.xml:7:5-34:19
-34        android:name="com.example.pamoproject.StartApplication"
-34-->D:\PamoProject\app\src\main\AndroidManifest.xml:8:9-41
-35        android:allowBackup="true"
-35-->D:\PamoProject\app\src\main\AndroidManifest.xml:9:9-35
-36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.8.0] C:\Users\fbianga\.gradle\caches\transforms-3\8d94b2d4c968cccf93c023125f36ce07\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-37        android:dataExtractionRules="@xml/data_extraction_rules"
-37-->D:\PamoProject\app\src\main\AndroidManifest.xml:10:9-65
-38        android:debuggable="true"
-39        android:fullBackupContent="@xml/backup_rules"
-39-->D:\PamoProject\app\src\main\AndroidManifest.xml:11:9-54
-40        android:hardwareAccelerated="true"
-40-->D:\PamoProject\app\src\main\AndroidManifest.xml:12:9-43
-41        android:icon="@mipmap/ic_launcher"
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\PamoProject\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\PamoProject\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+13-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:5-65
+13-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:22-62
+14    <uses-feature
+14-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:25:5-27:36
+15        android:name="android.hardware.camera"
+15-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:26:9-47
+16        android:required="false" />
+16-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:27:9-33
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:28:5-30:36
+18        android:name="android.hardware.camera.front"
+18-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:29:9-53
+19        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+19-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:30:9-33
+20    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:33:5-35:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:34:9-57
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:35:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
+25        android:name="android.hardware.camera.flash"
+25-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
+28        android:name="android.hardware.screen.landscape"
+28-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
+31        android:name="android.hardware.wifi"
+31-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
+33
+34    <application
+34-->D:\PamoProject\app\src\main\AndroidManifest.xml:8:5-35:19
+35        android:name="com.example.pamoproject.StartApplication"
+35-->D:\PamoProject\app\src\main\AndroidManifest.xml:9:9-41
+36        android:allowBackup="true"
+36-->D:\PamoProject\app\src\main\AndroidManifest.xml:10:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.8.0] C:\Users\fbianga\.gradle\caches\transforms-3\8d94b2d4c968cccf93c023125f36ce07\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->D:\PamoProject\app\src\main\AndroidManifest.xml:11:9-65
+39        android:debuggable="true"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->D:\PamoProject\app\src\main\AndroidManifest.xml:12:9-54
+41        android:hardwareAccelerated="true"
 41-->D:\PamoProject\app\src\main\AndroidManifest.xml:13:9-43
-42        android:label="@string/app_name"
-42-->D:\PamoProject\app\src\main\AndroidManifest.xml:14:9-41
-43        android:roundIcon="@mipmap/ic_launcher_round"
-43-->D:\PamoProject\app\src\main\AndroidManifest.xml:15:9-54
-44        android:supportsRtl="true"
-44-->D:\PamoProject\app\src\main\AndroidManifest.xml:16:9-35
-45        android:testOnly="true"
-46        android:theme="@style/Theme.PamoProject" >
-46-->D:\PamoProject\app\src\main\AndroidManifest.xml:17:9-49
-47        <activity
-47-->D:\PamoProject\app\src\main\AndroidManifest.xml:19:9-21:40
-48            android:name="com.example.pamoproject.ScanActivity"
-48-->D:\PamoProject\app\src\main\AndroidManifest.xml:20:13-41
-49            android:exported="false" />
-49-->D:\PamoProject\app\src\main\AndroidManifest.xml:21:13-37
-50        <activity
-50-->D:\PamoProject\app\src\main\AndroidManifest.xml:22:9-30:20
-51            android:name="com.example.pamoproject.MainActivity"
-51-->D:\PamoProject\app\src\main\AndroidManifest.xml:23:13-41
-52            android:exported="true" >
-52-->D:\PamoProject\app\src\main\AndroidManifest.xml:24:13-36
-53            <intent-filter>
-53-->D:\PamoProject\app\src\main\AndroidManifest.xml:25:13-29:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->D:\PamoProject\app\src\main\AndroidManifest.xml:26:17-69
-54-->D:\PamoProject\app\src\main\AndroidManifest.xml:26:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->D:\PamoProject\app\src\main\AndroidManifest.xml:28:17-77
-56-->D:\PamoProject\app\src\main\AndroidManifest.xml:28:27-74
-57            </intent-filter>
-58        </activity>
-59        <activity
-59-->D:\PamoProject\app\src\main\AndroidManifest.xml:31:9-33:52
-60            android:name="com.example.pamoproject.ScanResult"
-60-->D:\PamoProject\app\src\main\AndroidManifest.xml:32:13-39
-61            android:screenOrientation="portrait" />
-61-->D:\PamoProject\app\src\main\AndroidManifest.xml:33:13-49
-62        <activity
-62-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
-63            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-63-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
-64            android:clearTaskOnLaunch="true"
-64-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
-65            android:screenOrientation="sensorLandscape"
-65-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
-66            android:stateNotNeeded="true"
-66-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
-67            android:theme="@style/zxing_CaptureTheme"
-67-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
-68            android:windowSoftInputMode="stateAlwaysHidden" />
-68-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
-69
-70        <provider
-70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-71            android:name="androidx.startup.InitializationProvider"
-71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-72            android:authorities="com.example.pamoproject.androidx-startup"
-72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-73            android:exported="false" >
-73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-74            <meta-data
-74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-76                android:value="androidx.startup" />
-76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-77            <meta-data
-77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fbianga\.gradle\caches\transforms-3\f7d9c5e697e1d4ffedb269ff41bb269b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fbianga\.gradle\caches\transforms-3\f7d9c5e697e1d4ffedb269ff41bb269b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-79                android:value="androidx.startup" />
-79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fbianga\.gradle\caches\transforms-3\f7d9c5e697e1d4ffedb269ff41bb269b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-80        </provider>
-81    </application>
-82
-83</manifest>
+42        android:icon="@mipmap/ic_launcher"
+42-->D:\PamoProject\app\src\main\AndroidManifest.xml:14:9-43
+43        android:label="@string/app_name"
+43-->D:\PamoProject\app\src\main\AndroidManifest.xml:15:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->D:\PamoProject\app\src\main\AndroidManifest.xml:16:9-54
+45        android:supportsRtl="true"
+45-->D:\PamoProject\app\src\main\AndroidManifest.xml:17:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.PamoProject" >
+47-->D:\PamoProject\app\src\main\AndroidManifest.xml:18:9-49
+48        <activity
+48-->D:\PamoProject\app\src\main\AndroidManifest.xml:20:9-22:40
+49            android:name="com.example.pamoproject.ScanActivity"
+49-->D:\PamoProject\app\src\main\AndroidManifest.xml:21:13-41
+50            android:exported="false" />
+50-->D:\PamoProject\app\src\main\AndroidManifest.xml:22:13-37
+51        <activity
+51-->D:\PamoProject\app\src\main\AndroidManifest.xml:23:9-31:20
+52            android:name="com.example.pamoproject.MainActivity"
+52-->D:\PamoProject\app\src\main\AndroidManifest.xml:24:13-41
+53            android:exported="true" >
+53-->D:\PamoProject\app\src\main\AndroidManifest.xml:25:13-36
+54            <intent-filter>
+54-->D:\PamoProject\app\src\main\AndroidManifest.xml:26:13-30:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\PamoProject\app\src\main\AndroidManifest.xml:27:17-69
+55-->D:\PamoProject\app\src\main\AndroidManifest.xml:27:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\PamoProject\app\src\main\AndroidManifest.xml:29:17-77
+57-->D:\PamoProject\app\src\main\AndroidManifest.xml:29:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->D:\PamoProject\app\src\main\AndroidManifest.xml:32:9-34:52
+61            android:name="com.example.pamoproject.ScanResult"
+61-->D:\PamoProject\app\src\main\AndroidManifest.xml:33:13-39
+62            android:screenOrientation="portrait" />
+62-->D:\PamoProject\app\src\main\AndroidManifest.xml:34:13-49
+63        <activity
+63-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+64            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+64-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+65            android:clearTaskOnLaunch="true"
+65-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+66            android:screenOrientation="sensorLandscape"
+66-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+67            android:stateNotNeeded="true"
+67-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+68            android:theme="@style/zxing_CaptureTheme"
+68-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+69            android:windowSoftInputMode="stateAlwaysHidden" />
+69-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+73            android:authorities="com.example.pamoproject.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\964ed36e60898d78424434d564844e80\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fbianga\.gradle\caches\transforms-3\f7d9c5e697e1d4ffedb269ff41bb269b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fbianga\.gradle\caches\transforms-3\f7d9c5e697e1d4ffedb269ff41bb269b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fbianga\.gradle\caches\transforms-3\f7d9c5e697e1d4ffedb269ff41bb269b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>

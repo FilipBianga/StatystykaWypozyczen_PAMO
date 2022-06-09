@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\fbianga\.gradle\caches\transforms-3\5cdf791989f106021ed1fe86eecbbce9\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\fbianga\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fbianga\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -11,6 +11,8 @@ MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\fbianga\.gradle\caches
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\1bfa40c7feaf1aeb015d2ab57947a579\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:17:1-56:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\a13164a99542b946f0a0c7fd21210fe5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fbianga\.gradle\caches\transforms-3\b71bf8d1a0aed1a3b5454c0740e3e63b\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\fbianga\.gradle\caches\transforms-3\7097b15d0d0910546a10e88b660442ba\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\d62e54e24dbc746dc46d41c73a383143\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fbianga\.gradle\caches\transforms-3\ea075dd47c7da4481afea15d1d3352bb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\fbianga\.gradle\caches\transforms-3\7bd28d7e8f363aaad1328941e7c6851b\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -27,7 +29,6 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fbianga\.gra
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\5f6bce248354caebdb0537d0d522a083\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\7c2a69963f268b347cc286e5cbaa794a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\62fe94634af4c7176027a843a248a0b7\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fbianga\.gradle\caches\transforms-3\fbbc0fb91038fba298d872259220f060\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\cf2ef0b7e0a7c2f7d84821efc168950d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\fbianga\.gradle\caches\transforms-3\5c8002889b6801d63ca159a2286006e4\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\46b8714f6149cebfd2fa236eedfcdc01\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -52,22 +53,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fbianga\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\62e158e431b90e31f1313fb92114e5fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\9eac3243e07281a6c670785baad86a60\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fbianga\.gradle\caches\transforms-3\21d2a332cac1b039cfd7337048ae1658\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
 		INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:2:11-69
@@ -75,8 +76,12 @@ uses-permission#android.permission.VIBRATE
 ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
 		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:6:22-63
+uses-permission#android.permission.INTERNET
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:7:5-34:19
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:8:5-35:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\fbianga\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\fbianga\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fbianga\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -96,55 +101,55 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fbianga\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\fbianga\.gradle\caches\transforms-3\8d94b2d4c968cccf93c023125f36ce07\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:15:9-41
 	android:hardwareAccelerated
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:12:9-43
-	android:fullBackupContent
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:11:9-54
-	android:roundIcon
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:15:9-54
-	tools:targetApi
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:18:9-29
-	android:icon
 		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:12:9-54
+	android:roundIcon
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:16:9-54
+	tools:targetApi
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:19:9-29
+	android:icon
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:17:9-49
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:18:9-49
 	android:dataExtractionRules
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:10:9-65
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:11:9-65
 	android:name
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:9:9-41
 activity#com.example.pamoproject.ScanActivity
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:21:13-41
 activity#com.example.pamoproject.MainActivity
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:23:9-31:20
 	android:exported
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.pamoproject.ScanResult
-ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:31:9-33:52
+ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:32:9-34:52
 	android:screenOrientation
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:34:13-49
 	android:name
-		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:32:13-39
+		ADDED from D:\PamoProject\app\src\main\AndroidManifest.xml:33:13-39
 uses-sdk
 INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\PamoProject\app\src\main\AndroidManifest.xml
@@ -163,6 +168,10 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gra
 MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\fbianga\.gradle\caches\transforms-3\935ee6163e1546bb8a6100f71adaa043\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\a13164a99542b946f0a0c7fd21210fe5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\a13164a99542b946f0a0c7fd21210fe5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fbianga\.gradle\caches\transforms-3\b71bf8d1a0aed1a3b5454c0740e3e63b\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fbianga\.gradle\caches\transforms-3\b71bf8d1a0aed1a3b5454c0740e3e63b\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\fbianga\.gradle\caches\transforms-3\7097b15d0d0910546a10e88b660442ba\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\fbianga\.gradle\caches\transforms-3\7097b15d0d0910546a10e88b660442ba\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\d62e54e24dbc746dc46d41c73a383143\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\d62e54e24dbc746dc46d41c73a383143\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fbianga\.gradle\caches\transforms-3\ea075dd47c7da4481afea15d1d3352bb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -195,8 +204,6 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fbianga\.
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\7c2a69963f268b347cc286e5cbaa794a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\62fe94634af4c7176027a843a248a0b7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\62fe94634af4c7176027a843a248a0b7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fbianga\.gradle\caches\transforms-3\fbbc0fb91038fba298d872259220f060\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fbianga\.gradle\caches\transforms-3\fbbc0fb91038fba298d872259220f060\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\cf2ef0b7e0a7c2f7d84821efc168950d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fbianga\.gradle\caches\transforms-3\cf2ef0b7e0a7c2f7d84821efc168950d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\fbianga\.gradle\caches\transforms-3\5c8002889b6801d63ca159a2286006e4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
