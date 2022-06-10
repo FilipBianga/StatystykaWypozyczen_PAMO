@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ViewScanActivity">
 
+
     <RelativeLayout
         android:id="@+id/readProgressLayout"
         android:layout_width="match_parent"
@@ -17,14 +18,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            />
+            android:layout_centerVertical="true" />
+
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
 
 </RelativeLayout>

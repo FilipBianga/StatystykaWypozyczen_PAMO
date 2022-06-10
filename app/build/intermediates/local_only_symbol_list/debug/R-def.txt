@@ -1,10 +1,18 @@
 R_DEF: Internal format may change without notice
 local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 color black
 color blue_1
 color blue_2
 color darkGreen
 color darkPink
+color dash_button
+color ic_barcode_background
+color ic_launcher_background
+color ic_view_background
 color lightGreen
 color purple_200
 color purple_500
@@ -15,6 +23,8 @@ color white
 drawable ic_bg_title
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+font akaya_telivigala
+font alfa_slab_one
 id barcodeView
 id btnFlash
 id btnMenu
@@ -22,15 +32,25 @@ id btnScan
 id btnScanActivity
 id btnViewScan
 id labelResultScan
+id readProgressBar
+id readProgressLayout
+id recyclerView
+id txtData
 id txtResultScan
+id txtScanResult
 id zxing_barcode_surface
 id zxing_viewfinder_view
 layout activity_main
 layout activity_scan
 layout activity_view_scan
 layout barcode_layout
-mipmap ic_launcher
-mipmap ic_launcher_round
+layout book_information
+mipmap ic_barcode
+mipmap ic_barcode_foreground
+mipmap ic_barcode_round
+mipmap ic_view
+mipmap ic_view_foreground
+mipmap ic_view_round
 string app_name
 style Theme.PamoProject
 xml backup_rules

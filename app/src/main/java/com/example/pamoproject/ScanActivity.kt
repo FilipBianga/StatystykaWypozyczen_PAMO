@@ -68,7 +68,7 @@ class ScanActivity : AppCompatActivity() {
                         scannedData = it.text
                         txtResultScan.text = scannedData
 
-                        val url="https://script.google.com/macros/s/AKfycbz63MNDI3LU3yNst07zzKsoOHKhAjh9HvFXbcndgHwAoUm3KuYiKdJ4cHOY6anqm4VF/exec"
+                        val url="https://script.google.com/macros/s/AKfycbzPQtomLZiDH4tdMZ9SFlqZfV_sSW1xvN5KiUy-3jGo-89yE0kWoaQ7nMhenkf20cPk/exec/exec"
                         val stringRequest = object : StringRequest(Request.Method.POST, url, Response.Listener {
                             Toast.makeText(this@ScanActivity, "Success", Toast.LENGTH_SHORT).show()
                         },

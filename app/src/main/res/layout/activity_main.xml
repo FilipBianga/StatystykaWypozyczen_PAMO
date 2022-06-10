@@ -14,43 +14,50 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dashboard"
+            android:fontFamily="@font/alfa_slab_one"
             android:textSize="25sp"
             android:layout_gravity="center"
             android:textColor="@color/black"
             android:layout_margin="20dp"/>
 
         <GridLayout
-            android:layout_width="match_parent"
+            android:layout_width="374dp"
             android:layout_height="match_parent"
-            android:rowCount="4"
-            android:columnCount="2"
+            android:layout_gravity="center_horizontal"
             android:layout_margin="5dp"
             android:alignmentMode="alignMargins"
-            android:layout_gravity="center_horizontal"
-            android:columnOrderPreserved="false">
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnScanActivity"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                app:cardElevation="5dp"
-                app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/blue_1">
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:src="@mipmap/ic_barcode" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Barcode Scanner"
-                        android:textSize="25dp"
+                        android:fontFamily="@font/akaya_telivigala"
                         android:gravity="center"
-                        android:textColor="@color/black"/>
+                        android:text="Barcode Scanner"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -59,24 +66,30 @@
                 android:id="@+id/btnViewScan"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                app:cardElevation="5dp"
-                app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/blue_1">
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:src="@mipmap/ic_view" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:gravity="center"
                         android:text="View Scan"
-                        android:textSize="25dp"
-                        android:gravity="center"
-                        android:textColor="@color/black"/>
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -84,24 +97,25 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                app:cardElevation="5dp"
-                app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/blue_1">
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Example"
-                        android:textSize="25dp"
+                        android:fontFamily="@font/akaya_telivigala"
                         android:gravity="center"
-                        android:textColor="@color/black"/>
+                        android:text="Example"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -109,24 +123,25 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="170dp"
                 android:layout_height="170dp"
-                app:cardElevation="5dp"
-                app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/blue_1">
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Example"
-                        android:textSize="25dp"
+                        android:fontFamily="@font/akaya_telivigala"
                         android:gravity="center"
-                        android:textColor="@color/black"/>
+                        android:text="Example"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

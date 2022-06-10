@@ -11,7 +11,8 @@ class ViewScan(val context: Context, val itemList:ArrayList<Book>)
     :RecyclerView.Adapter<ViewScan.ReadViewHolder>() {
 
     class ReadViewHolder(view: View): RecyclerView.ViewHolder(view){
-        val txtScanResult: TextView =view.findViewById(R.id.txtScanResult)
+        val scannedData: TextView =view.findViewById(R.id.txtScanResult)
+        val ctime: TextView = view.findViewById(R.id.txtData)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ReadViewHolder {
@@ -21,7 +22,8 @@ class ViewScan(val context: Context, val itemList:ArrayList<Book>)
 
     override fun onBindViewHolder(holder: ReadViewHolder, position: Int) {
         val book=itemList[position]
-        holder.txtScanResult.text=book.barcode
+        holder.scannedData.text=book.scannedData
+        holder.ctime.text=book.data
     }
 
     override fun getItemCount(): Int {
