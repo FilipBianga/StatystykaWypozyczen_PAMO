@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dashboard"
+            android:text="@string/dashboard"
             android:textSize="25sp"
             android:layout_gravity="center"
             android:textColor="@color/black"
@@ -47,8 +47,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Barcode Scanner"
-                        android:textSize="25dp"
+                        android:text="@string/barcode_scanner"
+                        android:textSize="25sp"
                         android:gravity="center"
                         android:textColor="@color/black"/>
                 </LinearLayout>
@@ -73,8 +73,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="View Scan"
-                        android:textSize="25dp"
+                        android:text="@string/view_scan"
+                        android:textSize="25sp"
                         android:gravity="center"
                         android:textColor="@color/black"/>
                 </LinearLayout>
@@ -99,8 +99,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Pie Chart"
-                        android:textSize="25dp"
+                        android:text="@string/pie_chart"
+                        android:textSize="25sp"
                         android:gravity="center"
                         android:textColor="@color/black"/>
                 </LinearLayout>
@@ -125,8 +125,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Bar Chart"
-                        android:textSize="25dp"
+                        android:text="@string/bar_chart"
+                        android:textSize="25sp"
                         android:gravity="center"
                         android:textColor="@color/black"/>
                 </LinearLayout>

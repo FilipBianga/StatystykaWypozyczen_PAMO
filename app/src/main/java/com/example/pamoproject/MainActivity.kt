@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         btnScanActivity = findViewById(R.id.btnScanActivity)
         btnViewScan = findViewById(R.id.btnViewScan)
+        btnChartPieActivity = findViewById(R.id.btnChartPieActivity)
+        btnBartChartActivity = findViewById(R.id.btnBartChartActivity)
 
 
         btnScanActivity.setOnClickListener {

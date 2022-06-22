@@ -4,6 +4,10 @@ import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.android.volley.Request
+import com.android.volley.Response
+import com.android.volley.toolbox.JsonObjectRequest
+import com.android.volley.toolbox.Volley
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.components.AxisBase
 import com.github.mikephil.charting.components.XAxis
@@ -13,15 +17,16 @@ import com.github.mikephil.charting.data.BarEntry
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter
 import com.github.mikephil.charting.utils.ColorTemplate
 
-data class Score(
-    val name:String,
-    val score: Int,
-)
+
+//data class Score(
+//    val data:String,
+//    val scan: Int,
+//)
 class BarChartActivity : AppCompatActivity() {
 
     private lateinit var barChart: BarChart
-
-    private var scoreList = ArrayList<Score>()
+//        val bookList = arrayListOf<Book>()
+//    private var scoreList = ArrayList<Score>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,21 +34,22 @@ class BarChartActivity : AppCompatActivity() {
 
         barChart = findViewById(R.id.activity_main_barchart)
 
-        scoreList = getScoreList()
+//        bookList = getScoreList()
 
-        initBarChart()
+
+                initBarChart()
 
 
         //now draw bar chart with dynamic data
         val entries: ArrayList<BarEntry> = ArrayList()
 
         //you can replace this data object with  your custom object
-        for (i in scoreList.indices) {
-            val score = scoreList[i]
-            entries.add(BarEntry(i.toFloat(), score.score.toFloat()))
+        for (i in bookList.indices) {
+            val score = bookList[i]
+            entries.add(BarEntry(i.toFloat(), score.barcode.toFloat()))
         }
 
-        val barDataSet = BarDataSet(entries, "")
+        val barDataSet = BarDataSet(entries, "Statystyka Wypożyczeń")
         barDataSet.setColors(*ColorTemplate.COLORFUL_COLORS)
 
         val data = BarData(barDataSet)
@@ -91,25 +97,38 @@ class BarChartActivity : AppCompatActivity() {
         override fun getAxisLabel(value: Float, axis: AxisBase?): String {
             val index = value.toInt()
             Log.d(TAG, "getAxisLabel: index $index")
-            return if (index < scoreList.size) {
-                scoreList[index].name
-            } else {
+            return if (index < bookList.size) ({
+                bookList[index].data
+            }).toString() else {
                 ""
             }
         }
     }
+    val bookList= arrayListOf<Book>()
 
+    val queue= Volley.newRequestQueue(this)
+    val url="https://script.google.com/macros/s/AKfycbz63MNDI3LU3yNst07zzKsoOHKhAjh9HvFXbcndgHwAoUm3KuYiKdJ4cHOY6anqm4VF/exec"
+    val jsonObjectRequest=object : JsonObjectRequest(
+        Request.Method.GET,url,null,
+        Response.Listener {val data=it.getJSONArray("items")
+            for(i in 0 until data.length()){
+                val bookJasonObject=data.getJSONObject(i)
+                val bookObject=Book(
+                    bookJasonObject.getString("barcode")
+                )
+                bookList.add(bookObject)
+            }
+        }, Response.ErrorListener {  }
+    ){
+        override fun getHeaders(): MutableMap<String, String> {
+            return super.getHeaders()
+        }
+    }
+}
 
     // simulate api call
     // we are initialising it directly
-    private fun getScoreList(): ArrayList<Score> {
-        scoreList.add(Score("John", 56))
-        scoreList.add(Score("Rey", 75))
-        scoreList.add(Score("Steve", 85))
-        scoreList.add(Score("Kevin", 45))
-        scoreList.add(Score("Jeff", 63))
+//    private fun getScoreList():ArrayList<Book> {
+//        return bookList
+//    }
 
-        return scoreList
-    }
-
-}

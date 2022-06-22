@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PamoProject</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="view_scan">View Scan</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="bar_chart">Bar Chart</string>
 </resources>

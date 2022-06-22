@@ -43,6 +43,11 @@ layout book_information
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string bar_chart
+string barcode_scanner
+string dashboard
+string pie_chart
+string view_scan
 style Theme.PamoProject
 xml backup_rules
 xml data_extraction_rules

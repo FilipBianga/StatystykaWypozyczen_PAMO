@@ -3295,6 +3295,8 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string bar_chart
+string barcode_scanner
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -3302,6 +3304,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string dashboard
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3386,8 +3389,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pie_chart
 string search_menu_title
 string status_bar_notification_info_overflow
+string view_scan
 string zxing_app_name
 string zxing_button_ok
 string zxing_msg_camera_framework_bug
