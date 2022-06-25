@@ -13,10 +13,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">PamoProject</string>
-    <string name="bar_chart">Bar Chart</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="bar_chart">Chart Of Borrowed Books</string>
     <string name="barcode_scanner">Barcode Scanner</string>
     <string name="dashboard">Dashboard</string>
-    <string name="pie_chart">Pie Chart</string>
+    <string name="dots">...</string>
+    <string name="flash">Flash</string>
+    <string name="ksiazka">ksiazka :</string>
+    <string name="pie_chart">Top 5</string>
+    <string name="result">Result:</string>
+    <string name="time">Time :</string>
+    <string name="touch_to_scan">Touch to scan</string>
     <string name="view_scan">View Scan</string>
     <style name="Theme.PamoProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

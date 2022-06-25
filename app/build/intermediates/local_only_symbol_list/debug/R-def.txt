@@ -29,6 +29,7 @@ id labelResultScan
 id readProgressBar
 id readProgressLayout
 id recyclerView
+id txtData
 id txtResultScan
 id txtScanResult
 id zxing_barcode_surface
@@ -43,10 +44,17 @@ layout book_information
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string back_to_menu
 string bar_chart
 string barcode_scanner
 string dashboard
+string dots
+string flash
+string ksiazka
 string pie_chart
+string result
+string time
+string touch_to_scan
 string view_scan
 style Theme.PamoProject
 xml backup_rules

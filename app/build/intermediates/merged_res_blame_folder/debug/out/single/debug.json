@@ -8,24 +8,20 @@
         "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_bar_chart.xml.flat",
+        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_bar_chart.xml"
     },
     {
         "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_bar_chart.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_bar_chart.xml"
+        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.pamoproject.app-merged_res-5:/layout_activity_main.xml.flat",
-        "source": "com.example.pamoproject.app-main-7:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_pie_chart.xml.flat",
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pamoproject.app-merged_res-5:/layout_activity_view_scan.xml.flat",
+        "source": "com.example.pamoproject.app-main-7:/layout/activity_view_scan.xml"
     },
     {
         "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_barcode_layout.xml.flat",

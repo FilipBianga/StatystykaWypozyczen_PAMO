@@ -31,7 +31,7 @@ class ViewScanActivity : AppCompatActivity() {
         val bookList= arrayListOf<Book>()
 
         val queue= Volley.newRequestQueue(this)
-        val url="https://script.google.com/macros/s/AKfycbz63MNDI3LU3yNst07zzKsoOHKhAjh9HvFXbcndgHwAoUm3KuYiKdJ4cHOY6anqm4VF/exec"
+        val url="https://script.google.com/macros/s/AKfycbzPQtomLZiDH4tdMZ9SFlqZfV_sSW1xvN5KiUy-3jGo-89yE0kWoaQ7nMhenkf20cPk/exec"
         val jsonObjectRequest=object : JsonObjectRequest(
             Request.Method.GET,url,null,
             Response.Listener {
@@ -39,7 +39,8 @@ class ViewScanActivity : AppCompatActivity() {
                 for(i in 0 until data.length()){
                     val bookJasonObject=data.getJSONObject(i)
                     val bookObject=Book(
-                        bookJasonObject.getString("barcode")
+                        bookJasonObject.getString("scannedData"),
+                        bookJasonObject.getString("ctime")
                     )
                     bookList.add(bookObject)
                 }
@@ -57,4 +58,5 @@ class ViewScanActivity : AppCompatActivity() {
         queue.add(jsonObjectRequest)
 
     }
+
 }

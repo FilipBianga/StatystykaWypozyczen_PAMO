@@ -1,9 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e010f70c0cee3dfeab53ac1f47cdad4a\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\848f9b0dbfe3437d64f67100a9443eab\transformed\jetified-databinding-ktx-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\525093707e3319f4f6b4012245db5f47\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\13b6486c0bc3d26e91ab17261beeefd7\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e94337de3ceb42b0135be1d8a4a9b7db\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b8d955ff5639500073f611d7cca66d0d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -37,39 +40,42 @@ MERGED from [androidx.media:media:1.0.0] C:\Users\Adrian\Downloads\PAMO-Projekto
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\4fded12efc948ce59748ff631404cd0c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b082bebec9fb5a73c0defb8bed2db014\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.8.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8a9e634b9fa2342236d9d40ba886a153\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\217fec835b32ae391351c4d8e9e69555\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\27aa9f04b56f14b3722fcc62c0cdca7a\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b2475fa4760a7c64c14ce678f15159b9\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b481c73f6cb8edf4473c8902fd16b7f2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\2c7a3d25a1cc45863b549f2fb95edcb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b61c61de288ee41933343919dd1b8f71\transformed\jetified-viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b19426d07c0722e4e1caa1b53b888db6\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\19ecf16a300e51931dca6d04fa507332\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\c76cc07e0722fc91af95184f9ce31d89\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\9f05b1ce83ec48b3326568f6c6930316\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\ac3e97d722c0f3c869acf088dbfbca22\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\27aa9f04b56f14b3722fcc62c0cdca7a\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b481c73f6cb8edf4473c8902fd16b7f2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\217fec835b32ae391351c4d8e9e69555\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b2475fa4760a7c64c14ce678f15159b9\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\fb597481b45b41865c30c2d0063935eb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\bf599317aab70acfb280f701e2f6b6d4\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\3a3ace9cd5294576245089601176a759\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\5ef968cb93412d63ed9890b1138485b7\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\495035c30bc3970e87b127a6e9960150\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\fb597481b45b41865c30c2d0063935eb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\9f05b1ce83ec48b3326568f6c6930316\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\bf599317aab70acfb280f701e2f6b6d4\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8aea674e3ff26df490b68045ec51afef\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e624bb674065b70c4a91d08a86ce685e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\2fdc444f58f0985dd90434a2dfd41b22\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8b6dcb5af362fdf92b4433d1caf07205\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\f2f77254ee9a0ea4c80416bdd72f73ac\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:2:11-69
@@ -82,7 +88,7 @@ ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\s
 	android:name
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:9:5-41:19
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:9:5-47:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e94337de3ceb42b0135be1d8a4a9b7db\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e94337de3ceb42b0135be1d8a4a9b7db\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b8d955ff5639500073f611d7cca66d0d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -121,50 +127,68 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Adrian\Downloads\P
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:18:9-49
 	android:dataExtractionRules
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:11:9-65
-activity#com.example.pamoproject.BarChartActivity
+activity#com.example.pamoproject.ItemActivity
 ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:21:13-45
-activity#com.example.pamoproject.PieChartActivity
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:21:13-41
+activity#com.example.pamoproject.ChartData
 ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:24:13-45
-activity#com.example.pamoproject.ViewScanActivity
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:24:13-38
+activity#com.example.pamoproject.BarChartActivity
 ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:27:13-45
-activity#com.example.pamoproject.ScanActivity
+activity#com.example.pamoproject.PieChartActivity
 ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:30:13-41
-activity#com.example.pamoproject.MainActivity
-ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:32:9-40:20
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:30:13-45
+activity#com.example.pamoproject.ViewScanActivity
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:33:13-45
+activity#com.example.pamoproject.ScanActivity
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:36:13-41
+activity#com.example.pamoproject.MainActivity
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:38:9-46:20
+	android:exported
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:39:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml:44:27-74
 uses-sdk
 INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Adrian\AndroidStudioProjects\StatystykaWypozyczen_PAMO\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e010f70c0cee3dfeab53ac1f47cdad4a\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e010f70c0cee3dfeab53ac1f47cdad4a\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\848f9b0dbfe3437d64f67100a9443eab\transformed\jetified-databinding-ktx-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\848f9b0dbfe3437d64f67100a9443eab\transformed\jetified-databinding-ktx-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\525093707e3319f4f6b4012245db5f47\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\525093707e3319f4f6b4012245db5f47\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\13b6486c0bc3d26e91ab17261beeefd7\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\13b6486c0bc3d26e91ab17261beeefd7\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e94337de3ceb42b0135be1d8a4a9b7db\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
@@ -231,30 +255,36 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ad
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b082bebec9fb5a73c0defb8bed2db014\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.8.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8a9e634b9fa2342236d9d40ba886a153\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8a9e634b9fa2342236d9d40ba886a153\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\217fec835b32ae391351c4d8e9e69555\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\217fec835b32ae391351c4d8e9e69555\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\27aa9f04b56f14b3722fcc62c0cdca7a\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\27aa9f04b56f14b3722fcc62c0cdca7a\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b2475fa4760a7c64c14ce678f15159b9\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b2475fa4760a7c64c14ce678f15159b9\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b481c73f6cb8edf4473c8902fd16b7f2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b481c73f6cb8edf4473c8902fd16b7f2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\2c7a3d25a1cc45863b549f2fb95edcb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\2c7a3d25a1cc45863b549f2fb95edcb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b61c61de288ee41933343919dd1b8f71\transformed\jetified-viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b61c61de288ee41933343919dd1b8f71\transformed\jetified-viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b19426d07c0722e4e1caa1b53b888db6\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b19426d07c0722e4e1caa1b53b888db6\transformed\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\19ecf16a300e51931dca6d04fa507332\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\19ecf16a300e51931dca6d04fa507332\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\c76cc07e0722fc91af95184f9ce31d89\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\c76cc07e0722fc91af95184f9ce31d89\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\9f05b1ce83ec48b3326568f6c6930316\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\9f05b1ce83ec48b3326568f6c6930316\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\ac3e97d722c0f3c869acf088dbfbca22\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\ac3e97d722c0f3c869acf088dbfbca22\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\27aa9f04b56f14b3722fcc62c0cdca7a\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\27aa9f04b56f14b3722fcc62c0cdca7a\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b481c73f6cb8edf4473c8902fd16b7f2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b481c73f6cb8edf4473c8902fd16b7f2\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\217fec835b32ae391351c4d8e9e69555\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\217fec835b32ae391351c4d8e9e69555\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b2475fa4760a7c64c14ce678f15159b9\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\b2475fa4760a7c64c14ce678f15159b9\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\fb597481b45b41865c30c2d0063935eb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\fb597481b45b41865c30c2d0063935eb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\bf599317aab70acfb280f701e2f6b6d4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\bf599317aab70acfb280f701e2f6b6d4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\3a3ace9cd5294576245089601176a759\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\3a3ace9cd5294576245089601176a759\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\5ef968cb93412d63ed9890b1138485b7\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\5ef968cb93412d63ed9890b1138485b7\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\495035c30bc3970e87b127a6e9960150\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\495035c30bc3970e87b127a6e9960150\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\fb597481b45b41865c30c2d0063935eb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\fb597481b45b41865c30c2d0063935eb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\9f05b1ce83ec48b3326568f6c6930316\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\9f05b1ce83ec48b3326568f6c6930316\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\bf599317aab70acfb280f701e2f6b6d4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\bf599317aab70acfb280f701e2f6b6d4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8aea674e3ff26df490b68045ec51afef\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\8aea674e3ff26df490b68045ec51afef\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Adrian\Downloads\PAMO-ProjektowanieAplikacjiMobilnych--master\Lab_3\caches\transforms-3\e624bb674065b70c4a91d08a86ce685e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44

@@ -21,6 +21,7 @@ class PieChartActivity : AppCompatActivity() {
         setupPieChart()
         loadPieChartData()
 
+
     }
     private fun setupPieChart() {
         pieChart!!.isDrawHoleEnabled = true

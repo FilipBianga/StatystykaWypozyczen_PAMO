@@ -2696,6 +2696,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2879,6 +2880,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id outline
 id outward
@@ -2999,6 +3002,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3024,6 +3028,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtData
 id txtResultScan
 id txtScanResult
 id unchecked
@@ -3295,6 +3300,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string back_to_menu
 string bar_chart
 string barcode_scanner
 string bottom_sheet_behavior
@@ -3305,13 +3311,16 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string dashboard
+string dots
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string flash
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string ksiazka
 string label
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3390,8 +3399,11 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string pie_chart
+string result
 string search_menu_title
 string status_bar_notification_info_overflow
+string time
+string touch_to_scan
 string view_scan
 string zxing_app_name
 string zxing_button_ok

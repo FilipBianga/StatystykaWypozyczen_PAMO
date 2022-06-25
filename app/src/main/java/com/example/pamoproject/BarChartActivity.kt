@@ -1,13 +1,10 @@
 package com.example.pamoproject
 
 import android.content.ContentValues.TAG
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.toolbox.JsonObjectRequest
-import com.android.volley.toolbox.Volley
+
+import androidx.appcompat.app.AppCompatActivity
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.components.AxisBase
 import com.github.mikephil.charting.components.XAxis
@@ -18,15 +15,14 @@ import com.github.mikephil.charting.formatter.IndexAxisValueFormatter
 import com.github.mikephil.charting.utils.ColorTemplate
 
 
-//data class Score(
-//    val data:String,
-//    val scan: Int,
-//)
+data class Score(
+    val ctime:String,
+    val scannedData: Int,
+)
 class BarChartActivity : AppCompatActivity() {
 
     private lateinit var barChart: BarChart
-//        val bookList = arrayListOf<Book>()
-//    private var scoreList = ArrayList<Score>()
+    private var scoreList = ArrayList<Score>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,22 +30,21 @@ class BarChartActivity : AppCompatActivity() {
 
         barChart = findViewById(R.id.activity_main_barchart)
 
-//        bookList = getScoreList()
+        scoreList = getScoreList()
+
+        initBarChart()
 
 
-                initBarChart()
 
-
-        //now draw bar chart with dynamic data
         val entries: ArrayList<BarEntry> = ArrayList()
 
-        //you can replace this data object with  your custom object
-        for (i in bookList.indices) {
-            val score = bookList[i]
-            entries.add(BarEntry(i.toFloat(), score.barcode.toFloat()))
+
+        for (i in scoreList.indices) {
+            val score = scoreList[i]
+            entries.add(BarEntry(i.toFloat(), score.scannedData.toFloat()))
         }
 
-        val barDataSet = BarDataSet(entries, "Statystyka Wypożyczeń")
+        val barDataSet = BarDataSet(entries, "Ilość wypożyczeń")
         barDataSet.setColors(*ColorTemplate.COLORFUL_COLORS)
 
         val data = BarData(barDataSet)
@@ -62,27 +57,27 @@ class BarChartActivity : AppCompatActivity() {
     private fun initBarChart() {
 
 
-//        hide grid lines
+
         barChart.axisLeft.setDrawGridLines(false)
         val xAxis: XAxis = barChart.xAxis
         xAxis.setDrawGridLines(false)
         xAxis.setDrawAxisLine(false)
 
-        //remove right y-axis
+
         barChart.axisRight.isEnabled = false
 
-        //remove legend
+
         barChart.legend.isEnabled = false
 
 
-        //remove description label
+
         barChart.description.isEnabled = false
 
 
-        //add animation
+
         barChart.animateY(3000)
 
-        // to draw label on xAxis
+
         xAxis.position = XAxis.XAxisPosition.BOTTOM_INSIDE
         xAxis.valueFormatter = MyAxisFormatter()
         xAxis.setDrawLabels(true)
@@ -97,38 +92,24 @@ class BarChartActivity : AppCompatActivity() {
         override fun getAxisLabel(value: Float, axis: AxisBase?): String {
             val index = value.toInt()
             Log.d(TAG, "getAxisLabel: index $index")
-            return if (index < bookList.size) ({
-                bookList[index].data
-            }).toString() else {
+            return if (index < scoreList.size) {
+                scoreList[index].ctime
+
+            } else {
                 ""
             }
         }
     }
-    val bookList= arrayListOf<Book>()
 
-    val queue= Volley.newRequestQueue(this)
-    val url="https://script.google.com/macros/s/AKfycbz63MNDI3LU3yNst07zzKsoOHKhAjh9HvFXbcndgHwAoUm3KuYiKdJ4cHOY6anqm4VF/exec"
-    val jsonObjectRequest=object : JsonObjectRequest(
-        Request.Method.GET,url,null,
-        Response.Listener {val data=it.getJSONArray("items")
-            for(i in 0 until data.length()){
-                val bookJasonObject=data.getJSONObject(i)
-                val bookObject=Book(
-                    bookJasonObject.getString("barcode")
-                )
-                bookList.add(bookObject)
-            }
-        }, Response.ErrorListener {  }
-    ){
-        override fun getHeaders(): MutableMap<String, String> {
-            return super.getHeaders()
-        }
+    private fun getScoreList(): ArrayList<Score> {
+        scoreList.add(Score("Sekretny dziennik młodego lekarza", 56))
+        scoreList.add(Score("Prawdziwe historie polskich lekarzy", 75))
+        scoreList.add(Score("Farmakologia po prostu", 85))
+        scoreList.add(Score("Starosłowiański Masaż Brzucha", 45))
+        scoreList.add(Score("Zbrodnia i Medycyna", 63))
+
+        return scoreList
     }
+
+
 }
-
-    // simulate api call
-    // we are initialising it directly
-//    private fun getScoreList():ArrayList<Book> {
-//        return bookList
-//    }
-

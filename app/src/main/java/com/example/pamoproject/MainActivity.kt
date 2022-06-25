@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         btnChartPieActivity = findViewById(R.id.btnChartPieActivity)
         btnBartChartActivity = findViewById(R.id.btnBartChartActivity)
 
-
         btnScanActivity.setOnClickListener {
             val intent = Intent(this@MainActivity, ScanActivity::class.java)
             startActivity(intent)
@@ -42,5 +41,5 @@ class MainActivity : AppCompatActivity() {
             val intent= Intent( this@MainActivity,BarChartActivity::class.java)
             startActivity(intent)
         }
-        }
+    }
 }

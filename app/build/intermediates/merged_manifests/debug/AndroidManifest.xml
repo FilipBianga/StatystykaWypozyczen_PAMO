@@ -45,6 +45,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.PamoProject" >
         <activity
+            android:name="com.example.pamoproject.ItemActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.pamoproject.ChartData"
+            android:exported="false" />
+        <activity
             android:name="com.example.pamoproject.BarChartActivity"
             android:exported="false" />
         <activity

@@ -3,6 +3,13 @@
     <string name="dashboard">Dashboard</string>
     <string name="barcode_scanner">Barcode Scanner</string>
     <string name="view_scan">View Scan</string>
-    <string name="pie_chart">Pie Chart</string>
-    <string name="bar_chart">Bar Chart</string>
+    <string name="pie_chart">Top 5</string>
+    <string name="bar_chart">Chart Of Borrowed Books</string>
+    <string name="flash">Flash</string>
+    <string name="touch_to_scan">Touch to scan</string>
+    <string name="result">Result:</string>
+    <string name="dots">...</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="time">Time :</string>
+    <string name="ksiazka">ksiazka :</string>
 </resources>

@@ -18,6 +18,9 @@
         android:theme="@style/Theme.PamoProject"
         tools:targetApi="31">
         <activity
+            android:name=".ItemActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChartData"
             android:exported="false" />
         <activity
