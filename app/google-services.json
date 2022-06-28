@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "799345432714",
+    "project_id": "pamoproject-6178a",
+    "storage_bucket": "pamoproject-6178a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799345432714:android:f33deda79dd83f5967b573",
+        "android_client_info": {
+          "package_name": "com.example.pamoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799345432714-jhau3dhp9dcd6c31filui0bpevq2tnn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7EcQ2xTYfFQx9jJ4ROsUL5pQid8i2aOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799345432714-jhau3dhp9dcd6c31filui0bpevq2tnn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

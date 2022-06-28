@@ -1,111 +1,32 @@
 package com.example.pamoproject
 
-import android.animation.ArgbEvaluator
-import android.animation.ValueAnimator
-import android.graphics.drawable.Drawable
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import androidx.core.content.ContextCompat
-import com.google.zxing.ResultPoint
-import com.google.zxing.client.android.BeepManager
-import com.journeyapps.barcodescanner.BarcodeCallback
-import com.journeyapps.barcodescanner.BarcodeResult
-import com.journeyapps.barcodescanner.CaptureManager
-import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
+import androidx.cardview.widget.CardView
+
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var captureManager: CaptureManager
-    private var flashState: Boolean = false
 
-    private var scanState: Boolean = false
-    private lateinit var scanBG: Drawable
-    lateinit var beepManager: BeepManager
-    private var lastScan = Date()
+    lateinit var btnScanActivity: CardView
+    lateinit var btnViewScan: CardView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        title = "Barcode Scanner"
+        btnScanActivity = findViewById(R.id.btnScanActivity)
+        btnViewScan = findViewById(R.id.btnViewScan)
 
-        captureManager = CaptureManager(this, barcodeView)
-        captureManager.initializeFromIntent(intent, savedInstanceState)
 
-        beepManager = BeepManager(this)
-        beepManager.isVibrateEnabled = true
-
-        scanBG = btnScan.background
-
-        var callback = object : BarcodeCallback {
-            override fun barcodeResult(result: BarcodeResult?) {
-                result?.let {
-                    val current = Date()
-                    val diff = current.time - lastScan.time
-                    if(diff >= 1000) {
-                        txtResultScan.text = it.text
-                        lastScan = current
-                        beepManager.playBeepSoundAndVibrate()
-
-                        animateBackground()
-                    }
-                }
-            }
-
-            override fun possibleResultPoints(resultPoints: MutableList<ResultPoint>?) {
-
-            }
+        btnScanActivity.setOnClickListener {
+            val intent = Intent(this@MainActivity, ScanActivity::class.java)
+            startActivity(intent)
         }
 
-        btnScan.setOnClickListener(View.OnClickListener {
-            if(!scanState) {
-                scanState = !scanState
-                btnScan.setBackgroundColor(ContextCompat.getColor(this, R.color.lightGreen))
-                txtResultScan.text = "scanning..."
-                barcodeView.decodeContinuous(callback)
-            } else {
-                scanState = !scanState
-                btnScan.background = scanBG
-                barcodeView.barcodeView.stopDecoding()
-            }
-        })
-
-        btnFlash.setOnClickListener {
-            if(flashState) {
-                flashState = false
-                barcodeView.setTorchOff()
-            } else {
-                flashState = true
-                barcodeView.setTorchOn()
-            }
+        btnViewScan.setOnClickListener {
+            val intent = Intent(this@MainActivity, ViewScanActivity::class.java)
+            startActivity(intent)
         }
-    }
-
-    private fun animateBackground() {
-        val colorFrom = resources.getColor(R.color.darkPink)
-        val colorTo = resources.getColor(R.color.lightGreen)
-        val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), colorFrom, colorTo)
-        colorAnimation.duration = 250 //msec
-
-        colorAnimation.addUpdateListener {
-            animator -> txtResultScan.setBackgroundColor(animator.animatedValue as Int)
         }
-        colorAnimation.start()
-    }
-
-    override fun onPause() {
-        super.onPause()
-        captureManager.onPause()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        captureManager.onResume()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        captureManager.onDestroy()
-    }
 }

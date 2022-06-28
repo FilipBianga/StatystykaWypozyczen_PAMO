@@ -1,51 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScanActivity">
-
-    <com.journeyapps.barcodescanner.DecoratedBarcodeView
-        android:id="@+id/barcodeView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="match_parent"
-        android:layout_height="235dp"
-        app:zxing_scanner_layout="@layout/barcode_layout" />
-
-    <Button
-        android:text="Lighter"
-        android:id="@+id/btnTorch"
-        app:layout_constraintRight_toRightOf="@id/barcodeView"
-        app:layout_constraintBottom_toBottomOf="@id/barcodeView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/barcodeView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnScanContinuous"
-            android:text="Scan+" />
-        <TextView
-            android:layout_marginRight="4dp"
-            android:id="@+id/labelResultContinuous"
-            android:text="Result: "
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:text="Dashboard"
+            android:fontFamily="@font/alfa_slab_one"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"/>
 
-        <TextView
-            android:text="..."
-            android:id="@+id/txtResultContinuous"
-            android:padding="4dp"
-            android:background="@color/zxing_result_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <GridLayout
+            android:layout_width="374dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnScanActivity"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:src="@mipmap/ic_barcode" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:gravity="center"
+                        android:text="Barcode Scanner"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnViewScan"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:src="@mipmap/ic_view" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:gravity="center"
+                        android:text="View Scan"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:gravity="center"
+                        android:text="Example"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/dash_button"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/akaya_telivigala"
+                        android:gravity="center"
+                        android:text="Example"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

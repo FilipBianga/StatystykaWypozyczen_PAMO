@@ -1,4 +1,4 @@
-#Tue Jun 07 14:49:47 CEST 2022
+#Fri Jun 10 11:48:04 CEST 2022
 base.2=D\:\\PamoProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 path.2=1/classes.dex
 base.1=D\:\\PamoProject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

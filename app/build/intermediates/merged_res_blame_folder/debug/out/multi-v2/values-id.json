@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pamoproject.app-mergeDebugResources-26:/values-id/values-id.xml",
+            "outputFile": "com.example.pamoproject.app-mergeDebugResources-3:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fbianga\\.gradle\\caches\\transforms-3\\935ee6163e1546bb8a6100f71adaa043\\transformed\\jetified-zxing-android-embedded-3.6.0\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\caches\\transforms-3\\3019bb82963f0f939e844760fa6c581c\\transformed\\jetified-zxing-android-embedded-3.6.0\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
