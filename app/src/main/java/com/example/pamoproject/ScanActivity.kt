@@ -1,5 +1,3 @@
-@file:Suppress("DEPRECATION")
-
 package com.example.pamoproject
 
 import android.animation.ArgbEvaluator

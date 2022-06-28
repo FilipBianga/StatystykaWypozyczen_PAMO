@@ -1,102 +1,190 @@
 [
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\drawable_ic_bg_title.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\drawable\\ic_bg_title.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_bar_chart.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_bar_chart.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-hdpi_ic_view_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-hdpi\\ic_view_round.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.pamoproject.app-merged_res-28:/layout_book_information.xml.flat",
+        "source": "com.example.pamoproject.app-main-30:/layout/book_information.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-mdpi_ic_view_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-mdpi\\ic_view_round.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-hdpi_ic_barcode_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-hdpi\\ic_barcode_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_pie_chart.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_pie_chart.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxxhdpi_ic_barcode_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxxhdpi\\ic_barcode_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\font_akaya_telivigala.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\font\\akaya_telivigala.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxxhdpi_ic_barcode_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxxhdpi\\ic_barcode_round.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-pngs-23:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxhdpi_ic_barcode_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxhdpi\\ic_barcode_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_book_information.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\book_information.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxhdpi_ic_barcode.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxhdpi\\ic_barcode.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-hdpi_ic_view_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-hdpi\\ic_view_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-hdpi_ic_barcode.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-hdpi\\ic_barcode.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_scan.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_scan.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xhdpi_ic_view_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xhdpi\\ic_view_round.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xhdpi_ic_view_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xhdpi\\ic_view_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-pngs-0:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxxhdpi_ic_view_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxxhdpi\\ic_view_round.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxxhdpi_ic_view_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxxhdpi\\ic_view_foreground.png"
     },
     {
-        "merged": "com.example.pamoproject.app-merged_res-5:/layout_activity_view_scan.xml.flat",
-        "source": "com.example.pamoproject.app-main-7:/layout/activity_view_scan.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-mdpi_ic_barcode_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-mdpi\\ic_barcode_round.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_barcode_layout.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\barcode_layout.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\layout_activity_view_scan.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\layout\\activity_view_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\drawable_ic_bg_title.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\drawable\\ic_bg_title.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxxhdpi_ic_view.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxxhdpi\\ic_view.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-anydpi-v26_ic_view_round.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-anydpi-v26\\ic_view_round.xml"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-hdpi_ic_view.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-hdpi\\ic_view.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-5:\\layout_activity_view_scan.xml.flat",
-        "source": "C:\\Users\\Adrian\\Downloads\\PAMO-ProjektowanieAplikacjiMobilnych--master\\Lab_3\\daemon\\7.3.3\\com.example.pamoproject.app-main-7:\\layout\\activity_view_scan.xml"
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-mdpi_ic_barcode.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-mdpi\\ic_barcode.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\layout_book_information.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\layout\\book_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-mdpi_ic_view.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-mdpi\\ic_view.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxhdpi_ic_view_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxhdpi\\ic_view_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\layout_barcode_layout.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\layout\\barcode_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxxhdpi_ic_barcode.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxxhdpi\\ic_barcode.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxhdpi_ic_barcode_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxhdpi\\ic_barcode_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-anydpi-v26_ic_barcode.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-anydpi-v26\\ic_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-anydpi-v26_ic_barcode_round.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-anydpi-v26\\ic_barcode_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\layout_activity_scan.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-mdpi_ic_barcode_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-mdpi\\ic_barcode_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xhdpi_ic_barcode.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xhdpi\\ic_barcode.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xhdpi_ic_barcode_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xhdpi\\ic_barcode_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxhdpi_ic_view.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxhdpi\\ic_view.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-hdpi_ic_barcode_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-hdpi\\ic_barcode_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-mdpi_ic_view_foreground.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-mdpi\\ic_view_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-anydpi-v26_ic_view.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-anydpi-v26\\ic_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xhdpi_ic_view.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xhdpi\\ic_view.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xxhdpi_ic_view_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xxhdpi\\ic_view_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\mipmap-xhdpi_ic_barcode_round.png.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\mipmap-xhdpi\\ic_barcode_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-merged_res-28:\\font_alfa_slab_one.xml.flat",
+        "source": "C:\\Users\\fbianga\\.gradle\\daemon\\7.3.3\\com.example.pamoproject.app-main-30:\\font\\alfa_slab_one.xml"
     }
 ]

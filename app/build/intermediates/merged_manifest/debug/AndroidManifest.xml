@@ -57,6 +57,9 @@
             android:name="com.example.pamoproject.PieChartActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.pamoproject.BooksActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.pamoproject.ViewScanActivity"
             android:exported="false" />
         <activity

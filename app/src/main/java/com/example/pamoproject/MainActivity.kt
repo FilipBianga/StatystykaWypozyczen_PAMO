@@ -1,5 +1,3 @@
-@file:Suppress("DEPRECATION")
-
 package com.example.pamoproject
 
 import android.content.Intent
@@ -12,8 +10,6 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var btnScanActivity: CardView
     lateinit var btnViewScan: CardView
-    lateinit var btnChartPieActivity: CardView
-    lateinit var btnBartChartActivity: CardView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,8 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         btnScanActivity = findViewById(R.id.btnScanActivity)
         btnViewScan = findViewById(R.id.btnViewScan)
-        btnChartPieActivity = findViewById(R.id.btnChartPieActivity)
-        btnBartChartActivity = findViewById(R.id.btnBartChartActivity)
+
 
         btnScanActivity.setOnClickListener {
             val intent = Intent(this@MainActivity, ScanActivity::class.java)
@@ -33,13 +28,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, ViewScanActivity::class.java)
             startActivity(intent)
         }
-        btnChartPieActivity.setOnClickListener {
-            val intent= Intent( this@MainActivity,PieChartActivity::class.java)
-            startActivity(intent)
         }
-        btnBartChartActivity.setOnClickListener {
-            val intent= Intent( this@MainActivity,BarChartActivity::class.java)
-            startActivity(intent)
-        }
-    }
 }
